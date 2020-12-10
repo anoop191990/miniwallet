@@ -88,6 +88,7 @@ class MyWallet(APIView):
             else:
                 wallet = Wallet()
                 wallet.owned = request.user
+                wallet.status = "enabled"
                 wallet.save()
             wallet = Wallet.objects.filter(owned = request.user,status="enabled")
             listserializer = ListWalletSerializer(wallet,many =True)

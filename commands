@@ -5,6 +5,7 @@ pip install -r requirements.txt
 python3 manage.py migrate
 python3 manage.py createsuperuser
         initial username:admin
+                email :anoopchandran191990@gmail.com
                 password:admin 
 
 python3 manage.py makemigrations wallet

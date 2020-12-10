@@ -16,15 +16,39 @@ python3 manage.py runserver
 
 
 
+######################### api  ########################
+1) Initialize my account for wallet
+        method : POST
+        api : localhost:8000/api/v1/init/
+        key : email,password
+2) Enable my wallet 
+        method : POST
+        api : localhost:8000/api/v1/wallet/
+        Authorization : Token
+
+3) View my wallet balance
+        method : GET
+        api : localhost:8000/api/v1/wallet/
+        Authorization : Token
+
+4) Disable my wallet
+        method : PATCH
+        api : localhost:8000/api/v1/wallet/
+        Authorization : Token
 
 
 
-
-
-
-
-
-
+5) Add virtual money to my wallet
+        method : POST
+        api : localhost:8000/api/v1/wallet/deposits/
+        key : amount
+        Authorization : Token
+        
+6) Use virtual money from my wallet
+        method : POST
+        api : localhost:8000/api/v1/wallet/withdrawals/
+        key : amount
+        Authorization : Token
 
 
 

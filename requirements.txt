@@ -1,0 +1,15 @@
+asgiref==3.3.1
+cffi==1.14.4
+cryptography==3.2.1
+Django==3.1.4
+djangorestframework==3.12.2
+importlib-metadata==3.1.1
+jwt==1.1.0
+Markdown==3.3.3
+pkg-resources==0.0.0
+pycparser==2.20
+PyJWT==1.7.1
+pytz==2020.4
+six==1.15.0
+sqlparse==0.4.1
+zipp==3.4.0
